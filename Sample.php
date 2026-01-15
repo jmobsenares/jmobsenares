@@ -19,13 +19,16 @@ class Fruit {
 
 $apple = new Fruit();
 $banana = new Fruit();
+$mango = new Fruit();
 $apple->set_name('Apple');
 $banana->set_name('Banana');
-$banana->set_name('Mango');
+$mango->set_name('Mango');
 
 echo $apple->get_name();
 echo "<br>";
 echo $banana->get_name();
+echo "<br>";
+echo $mango->get_name();
 ?>
  
 </body>
