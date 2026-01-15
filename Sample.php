@@ -21,6 +21,7 @@ $apple = new Fruit();
 $banana = new Fruit();
 $apple->set_name('Apple');
 $banana->set_name('Banana');
+$banana->set_name('Mango');
 
 echo $apple->get_name();
 echo "<br>";
